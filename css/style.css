@@ -7,7 +7,7 @@
 
 /* GENERAL */
 .container {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0, auto;
 }
 
@@ -24,7 +24,7 @@
     width: 30%;
     background-color: yellow;
     border: 2px dotted black;
-    vertical-align: middle
+    text-align: center;
 }
 .logo {
     text-align: start;
@@ -57,6 +57,7 @@
     height: 400px;
     width: 100%;
     display: flex;
+    align-items: center;
     justify-content: center;
     
 }
@@ -69,26 +70,27 @@
 }
 .blue {
     background-color: lightblue;
-    width: 35%;
-    height: 75%;
+    width: 60%;
+    height: 80%;
 }
 .pink {
     background-color: pink;
-    width: 25%;
-    height: 75%;
+    width: 30%;
+    height: 80%;
 }
 .grey-section {
     background-color: lightgray;
-    height: 600px;
+    height: 800px;
     width: 100%;
     display: flex;
+    align-items: center;
     justify-content: center;
     
 }
 .green {
     background-color: darkgreen;
-    width: 75%;
-    height: 75%;
+    width: 90% ;
+    height: 90%;
 }
 
 
