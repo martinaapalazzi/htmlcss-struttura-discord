@@ -44,7 +44,7 @@
     justify-content: center;
 
 }
-.pink-container {
+.fuchsia-container {
     background-color: fuchsia;
     min-height: 200px;
     width: 50%;
@@ -53,8 +53,43 @@
 }
 
 /* MAIN */
+.section {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.grey {
+    background-color: lightgrey;
+}
 
-
+.box {
+    border: 2px dotted black;
+}
+.blue {
+    background-color: lightblue;
+    width: 35%;
+    height: 75%;
+}
+.pink {
+    background-color: pink;
+    width: 25%;
+    height: 75%;
+}
+.grey-section {
+    background-color: lightgray;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.green {
+    background-color: darkgreen;
+    width: 75%;
+    height: 75%;
+}
 
 
 /* FOOTER */
