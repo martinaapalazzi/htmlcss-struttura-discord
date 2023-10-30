@@ -6,12 +6,51 @@
 }
 
 /* GENERAL */
-
+.container {
+    max-width: 1000px;
+    margin: 0, auto;
+}
 
 
 /* HEADER */
+.top-container {
+    background-color: lightblue;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+.yellow-container { 
+    min-height: 40px;
+    width: 30%;
+    background-color: yellow;
+    border: 2px dotted black;
+    vertical-align: middle
+}
+.logo {
+    text-align: start;
+}
+.link {
+    text-align: center;
+}
+.login {
+    text-align: end;
+}
+.bottom-container {
+    background-color: blue;
+    max-height: 300px;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
 
-
+}
+.pink-container {
+    background-color: fuchsia;
+    min-height: 200px;
+    width: 50%;
+    justify-content: center;
+    border: 2px dotted black;
+}
 
 /* MAIN */
 
