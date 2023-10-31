@@ -16,7 +16,7 @@
 .top-container {
     background-color: lightblue;
     display: flex;
-    padding: 20px;
+    padding: 10px 0;
     justify-content: center;
 }
 .yellow-container { 
@@ -24,31 +24,30 @@
     width: 30%;
     background-color: yellow;
     border: 2px dotted black;
-    text-align: center;
 }
 .logo {
-    text-align: start;
+    padding: 10px
 }
 .link {
     text-align: center;
+    padding: 10px
 }
 .login {
     text-align: end;
+    padding: 10px
 }
 .bottom-container {
     background-color: blue;
     max-height: 300px;
     width: 100%;
     padding: 20px 0;
-    display: flex;
-    justify-content: center;
 
 }
 .fuchsia-container {
     background-color: fuchsia;
     min-height: 200px;
     width: 50%;
-    justify-content: center;
+    align-content: center;
     border: 2px dotted black;
 }
 
@@ -61,7 +60,7 @@
     justify-content: center;
     
 }
-.grey {
+.grey  {
     background-color: lightgrey;
 }
 
@@ -133,8 +132,8 @@
     display: flex;
 }
 .sottobox {
-    width: 15%;
-    height: 80%;
+    width: 30%;
+    height: 100%;
     border: 2px dotted white;
 }
 
